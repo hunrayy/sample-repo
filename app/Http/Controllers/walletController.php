@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Model\Wallet;
+use App\Models\Wallet;
 class walletController extends Controller
 {
     //

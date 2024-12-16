@@ -22,14 +22,14 @@ return new class extends Migration
 
         // Array of users
         $users = [
-            ['name' => 'John Doe', 'email' => 'johndoe@gmail.com', 'password' => bcrypt('password')],
-            ['name' => 'Jane Smith', 'email' => 'janesmith@gmail.com', 'password' => bcrypt('password')],
-            ['name' => 'John Smith', 'email' => 'johnsmith@gmail.com', 'password' => bcrypt('password')],
-            ['name' => 'Elizabeth Miller', 'email' => 'elizabethmiller@gmail.com', 'password' => bcrypt('password')],
-            ['name' => 'Henry Williams', 'email' => 'henrywilliams@gmail.com', 'password' => bcrypt('password')],
-            ['name' => 'Olivia Brown', 'email' => 'oliviabrown@gmail.com', 'password' => bcrypt('password')],
-            ['name' => 'Noah Rodriguez', 'email' => 'noahrodriguez@gmail.com', 'password' => bcrypt('password')],
-            ['name' => 'Amelia Hernandez', 'email' => 'ameliahernandez@gmail.com', 'password' => bcrypt('password')],
+            ['name' => 'John Doe', 'email' => 'johndoe@gmail.com', 'password' => bcrypt('password'), 'created_at' => now(), 'updated_at' => now()],
+            ['name' => 'Jane Smith', 'email' => 'janesmith@gmail.com', 'password' => bcrypt('password'), 'created_at' => now(), 'updated_at' => now()],
+            ['name' => 'John Smith', 'email' => 'johnsmith@gmail.com', 'password' => bcrypt('password'), 'created_at' => now(), 'updated_at' => now()],
+            ['name' => 'Elizabeth Miller', 'email' => 'elizabethmiller@gmail.com', 'password' => bcrypt('password'), 'created_at' => now(), 'updated_at' => now()],
+            ['name' => 'Henry Williams', 'email' => 'henrywilliams@gmail.com', 'password' => bcrypt('password'), 'created_at' => now(), 'updated_at' => now()],
+            ['name' => 'Olivia Brown', 'email' => 'oliviabrown@gmail.com', 'password' => bcrypt('password'), 'created_at' => now(), 'updated_at' => now()],
+            ['name' => 'Noah Rodriguez', 'email' => 'noahrodriguez@gmail.com', 'password' => bcrypt('password'), 'created_at' => now(), 'updated_at' => now()],
+            ['name' => 'Amelia Hernandez', 'email' => 'ameliahernandez@gmail.com', 'password' => bcrypt('password'), 'created_at' => now(), 'updated_at' => now()],
         ];
 
         // Fetch all wallet types

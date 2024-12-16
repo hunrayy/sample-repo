@@ -12,8 +12,8 @@ use App\Http\Controllers\transactionController;
 //     return $request->user();
 // })->middleware('auth:sanctum');
 
-Route::get('/users', [userController::class, 'getAllUsers']);
-Route::get('/wallets', [walletController::class, 'getAllWallets']);
+Route::get('/get-all-users', [userController::class, 'getAllUsers']);
+Route::get('/get-all-wallets', [walletController::class, 'getAllWallets']);
 Route::get('/wallets/{id}', [walletController::class, 'getWalletDetails']);
 Route::post('/wallets/send-money', [transactionController::class, 'sendMoney']);
 
