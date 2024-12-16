@@ -14,7 +14,7 @@ use App\Http\Controllers\transactionController;
 
 Route::get('/get-all-users', [userController::class, 'getAllUsers']);
 Route::get('/get-all-wallets', [walletController::class, 'getAllWallets']);
-Route::get('/wallets/{id}', [walletController::class, 'getWalletDetails']);
-Route::post('/wallets/send-money', [transactionController::class, 'sendMoney']);
+Route::get('/get-single-wallet/{id}', [walletController::class, 'getWalletDetails']);
+Route::post('/transactions/send-money', [transactionController::class, 'sendMoney']);
 
 
